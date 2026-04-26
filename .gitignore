@@ -1,0 +1,23 @@
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (weights, checkpoints, etc.)
+models/*
+!models/.gitkeep
+
+
+# Python and Jupyter Notebook artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Virtual environments and environment files
+venv/
+env/
+.env
