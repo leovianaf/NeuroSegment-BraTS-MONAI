@@ -55,7 +55,7 @@ As principais ferramentas utilizadas no projeto incluem:
 1. Clone o repositório:
 
 ```bash
-git clone [https://github.com/seu-usuario/NeuroSegment-BraTS-MONAI.git](https://github.com/seu-usuario/NeuroSegment-BraTS-MONAI.git)
+git clone https://github.com/leovianaf/NeuroSegment-BraTS-MONAI.git
 ```
 
 2. Crie um ambiente virtual:
