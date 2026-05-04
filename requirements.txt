@@ -1,5 +1,6 @@
+einops
 h5py
-numpy
 matplotlib
 monai
 nibabel
+numpy
