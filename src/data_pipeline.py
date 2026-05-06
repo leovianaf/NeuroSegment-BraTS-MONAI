@@ -44,7 +44,7 @@ def get_dataloaders(data_path='../data/raw/BraTS2020_TrainingData/MICCAI_BraTS20
         Spacingd(keys=keys, pixdim=(1.0, 1.0, 1.0), mode=("bilinear", "nearest")),
         Orientationd(keys=keys, axcodes="RAS"), CropForegroundd(keys=keys, source_key="image"),
         NormalizeIntensityd(keys="image", nonzero=True, channel_wise=True),
-        RandCropByPosNegLabeld(keys=keys, label_key="label", spatial_size=(96, 96, 96), pos=1, neg=1, num_samples=4, image_key="image", image_threshold=0),
+        RandCropByPosNegLabeld(keys=keys, label_key="label", spatial_size=(96, 96, 96), pos=1, neg=1, num_samples=2, image_key="image", image_threshold=0),
         RandFlipd(keys=keys, spatial_axis=[0], prob=0.10),
         ToTensord(keys=keys),
     ])
